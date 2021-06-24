@@ -1,0 +1,36 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "strict": false,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "es5",
+      "es6",
+      "es2015",
+      "es7",
+      "es2016",
+      "es2017",
+      "es2018",
+      "es2019",
+      "esnext"
+    ],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@/constants": ["src/constants"],
+      "@/constants/*": ["src/constants/*"],
+      "@/components": ["src/components"],
+      "@/components/*": ["src/components/*"],
+      "@/utils": ["src/utils"],
+      "@/utils/*": ["src/utils/*"],
+      "@/hooks": ["src/hooks"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/styles": ["src/styles"],
+      "@/styles/*": ["src/styles/*"]
+    }
+  }
+}
